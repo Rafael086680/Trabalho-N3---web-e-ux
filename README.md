@@ -1,6 +1,6 @@
 # Patinha Feliz – Clínica Veterinária & Petshop
 
-Site institucional completo desenvolvido como Trabalho N3 da disciplina de Desenvolvimento Web.
+Site institucional completo desenvolvido como Trabalho N3 da disciplina de Ferramentas Web e Ux. Engenharia de Software - Católica SC
 
 ---
 
@@ -149,4 +149,4 @@ start index.html  # Windows
 
 ---
 
-*Trabalho N3 – Desenvolvimento Web | 2024*
+*Trabalho N3 – Desenvolvimento Web | 2026*
