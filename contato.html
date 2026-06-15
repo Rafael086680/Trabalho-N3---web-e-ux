@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre em contato com a Patinha Feliz. Agende consultas, banho e tosa, vacinação e mais em Jaraguá do Sul/SC." />
+  <title>Contato – Patinha Feliz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+  <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
+
+  <header class="header" role="banner">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="nav__logo" href="../index.html" aria-label="Patinha Feliz – Página inicial">
+        🐾 Patinha <span>Feliz</span>
+      </a>
+      <ul class="nav__links" role="list">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+      <a class="btn btn--primary nav__cta" href="contato.html">Agendar consulta</a>
+      <button class="nav__hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="contact-hero" aria-labelledby="contato-title">
+      <div class="container">
+        <span class="badge" style="background:rgba(168,213,181,0.3);color:#A8D5B5">Fale conosco</span>
+        <h1 id="contato-title">Entre em contato</h1>
+        <p>Agende uma consulta, tire dúvidas ou venha nos visitar. Estamos prontos para cuidar do seu pet!</p>
+      </div>
+    </section>
+
+    <!-- CONTATO PRINCIPAL -->
+    <section class="section" aria-labelledby="form-section-title">
+      <div class="container">
+        <div class="contact-layout">
+
+          <!-- Informações -->
+          <aside aria-label="Informações de contato">
+            <h2 id="form-section-title">Informações</h2>
+            <p>Escolha a forma de contato que for mais conveniente para você.</p>
+
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">📞</div>
+              <div class="info-item__text">
+                <strong>Telefone / WhatsApp</strong>
+                <span><a href="tel:+554733331234">(47) 3333-1234</a></span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">✉</div>
+              <div class="info-item__text">
+                <strong>E-mail</strong>
+                <span><a href="mailto:contato@patinhafeliz.com.br">contato@patinhafeliz.com.br</a></span>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">📍</div>
+              <div class="info-item__text">
+                <strong>Endereço</strong>
+                <span>Rua das Flores, 150<br>Jaraguá Esquerdo<br>Jaraguá do Sul – SC, 89255-000</span>
+              </div>
+            </div>
+
+            <h3 style="font-size:1.1rem;margin-top:2rem;margin-bottom:0.5rem">Horário de Atendimento</h3>
+            <table class="hours-table" aria-label="Horários de funcionamento">
+              <tbody>
+                <tr><td>Segunda – Sexta</td><td>08h – 18h</td></tr>
+                <tr><td>Sábado</td><td>08h – 13h</td></tr>
+                <tr><td>Domingo</td><td>Fechado</td></tr>
+                <tr><td>Feriados</td><td>Consultar</td></tr>
+              </tbody>
+            </table>
+
+            <!-- Mapa placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Mapa ilustrativo – Rua das Flores, 150, Jaraguá do Sul">
+              <span aria-hidden="true">🗺️</span>
+              <p>Rua das Flores, 150<br>Jaraguá do Sul – SC</p>
+            </div>
+          </aside>
+
+          <!-- Formulário -->
+          <div>
+            <div class="form-card">
+              <h2>Agendar ou enviar mensagem</h2>
+              <p>Preencha os campos abaixo e entraremos em contato em até 24 horas úteis.</p>
+
+              <form id="contactForm" novalidate aria-label="Formulário de agendamento">
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="nome">Nome completo <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="text"
+                      id="nome"
+                      name="nome"
+                      autocomplete="name"
+                      placeholder="Ex: Maria Silva"
+                      aria-required="true"
+                      aria-describedby="nomeError nomeSuccess"
+                    />
+                    <span class="field-error" id="nomeError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="nomeSuccess">✓ Nome válido</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="Ex: maria@email.com"
+                      aria-required="true"
+                      aria-describedby="emailError emailSuccess"
+                    />
+                    <span class="field-error" id="emailError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="emailSuccess">✓ E-mail válido</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="telefone">Telefone / WhatsApp <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="tel"
+                      id="telefone"
+                      name="telefone"
+                      autocomplete="tel"
+                      placeholder="(47) 99999-9999"
+                      aria-required="true"
+                      aria-describedby="telefoneError telefoneSuccess"
+                      maxlength="15"
+                    />
+                    <span class="field-error" id="telefoneError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="telefoneSuccess">✓ Telefone válido</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="pet">Nome do pet <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="text"
+                      id="pet"
+                      name="pet"
+                      placeholder="Ex: Rex"
+                      aria-required="true"
+                      aria-describedby="petError petSuccess"
+                    />
+                    <span class="field-error" id="petError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="petSuccess">✓ Nome do pet preenchido</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="servico">Serviço desejado <span class="required" aria-hidden="true">*</span></label>
+                  <select
+                    id="servico"
+                    name="servico"
+                    aria-required="true"
+                    aria-describedby="servicoError servicoSuccess"
+                  >
+                    <option value="">Selecione um serviço...</option>
+                    <option value="consulta">Consulta veterinária</option>
+                    <option value="banho-tosa">Banho e tosa</option>
+                    <option value="vacinacao">Vacinação</option>
+                    <option value="cirurgia">Cirurgia</option>
+                    <option value="exames">Exames laboratoriais</option>
+                    <option value="internacao">Internação</option>
+                    <option value="spa">Spa Pet Premium</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                  <span class="field-error" id="servicoError" role="alert" aria-live="polite"></span>
+                  <span class="field-success" id="servicoSuccess">✓ Serviço selecionado</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="mensagem">Mensagem <span class="required" aria-hidden="true">*</span></label>
+                  <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Descreva brevemente o motivo do contato, a espécie e a raça do seu pet..."
+                    aria-required="true"
+                    aria-describedby="mensagemError mensagemSuccess"
+                  ></textarea>
+                  <span class="field-error" id="mensagemError" role="alert" aria-live="polite"></span>
+                  <span class="field-success" id="mensagemSuccess">✓ Mensagem preenchida</span>
+                </div>
+
+                <p style="font-size:0.8rem;color:#888;margin-bottom:1.25rem">
+                  <span aria-hidden="true">*</span> Campos obrigatórios. Seus dados são usados apenas para retorno de contato.
+                </p>
+
+                <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;padding:0.9rem">
+                  Enviar mensagem 🐾
+                </button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO CHEGAR -->
+    <section class="section section--alt" aria-labelledby="como-chegar-title">
+      <div class="container text-center">
+        <span class="badge">Localização</span>
+        <h2 class="section-title" id="como-chegar-title">Como nos encontrar</h2>
+        <p class="section-subtitle">Estamos no coração de Jaraguá do Sul, com fácil acesso e estacionamento.</p>
+        <div class="services-grid" style="margin-top:2rem">
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚗</span>
+            <h3>De carro</h3>
+            <p>Saindo do centro, pegue a Av. Rui Barbosa e vire à esquerda na Rua das Flores. Estacionamento gratuito na porta.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚌</span>
+            <h3>De ônibus</h3>
+            <p>Linhas 03, 07 e 12 param a 200m da clínica. Desça no ponto "Jardim Flores" e caminhe pela Rua das Flores.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚶</span>
+            <h3>A pé</h3>
+            <p>A 10 minutos do centro da cidade, numa rua tranquila e arborizada. Perfeito para passeios com seu pet!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="nav__logo" href="../index.html">🐾 Patinha <span>Feliz</span></a>
+          <p>Cuidando do seu pet com amor e profissionalismo desde 2016.</p>
+          <div class="social-links" aria-label="Redes sociais">
+            <a class="social-link" href="#" aria-label="Instagram">📸</a>
+            <a class="social-link" href="#" aria-label="Facebook">📘</a>
+            <a class="social-link" href="#" aria-label="WhatsApp">💬</a>
+          </div>
+        </div>
+        <nav class="footer__col" aria-label="Links do site">
+          <h4>Páginas</h4>
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre nós</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="footer__col">
+          <h4>Serviços</h4>
+          <ul>
+            <li><a href="servicos.html">Consultas</a></li>
+            <li><a href="servicos.html">Banho & Tosa</a></li>
+            <li><a href="servicos.html">Vacinação</a></li>
+            <li><a href="servicos.html">Internação</a></li>
+          </ul>
+        </div>
+        <address class="footer__col" style="font-style:normal">
+          <h4>Contato</h4>
+          <ul>
+            <li><a href="tel:+554733331234">📞 (47) 3333-1234</a></li>
+            <li><a href="mailto:contato@patinhafeliz.com.br">✉ contato@patinhafeliz.com.br</a></li>
+            <li><span>📍 Rua das Flores, 150 – Jaraguá do Sul/SC</span></li>
+          </ul>
+        </address>
+      </div>
+      <div class="footer__bottom">
+        <p>© 2024 Patinha Feliz. Todos os direitos reservados.</p>
+        <p>Feito com 🐾 para quem ama animais</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+</html>
