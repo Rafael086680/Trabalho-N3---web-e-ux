@@ -145,8 +145,4 @@ open index.html   # macOS
 start index.html  # Windows
 ```
 
-> **Link do vídeo demonstrativo:** `[inserir link do YouTube aqui]`
-
----
-
 *Trabalho N3 – Desenvolvimento Web | 2026*
