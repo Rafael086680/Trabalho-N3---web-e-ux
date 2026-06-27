@@ -59,7 +59,7 @@ patinha-feliz/
 
 ### Conteúdo por página
 
-#### 🏠 Home (`index.html`)
+#### Home (`index.html`)
 - **Hero** com headline, subtítulo, dois CTAs e animação de flutuação
 - **Estatísticas rápidas** (pets atendidos, anos de experiência, número de vets)
 - **Preview de 4 serviços** em grid responsivo com cards
