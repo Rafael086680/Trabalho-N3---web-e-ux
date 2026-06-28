@@ -3,29 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Patinha Feliz – Clínica Veterinária e Petshop. Cuidamos do seu pet com amor e profissionalismo em Jaraguá do Sul." />
-  <title>Patinha Feliz – Clínica Veterinária & Petshop</title>
+  <meta name="description" content="Entre em contato com a Patinha Feliz. Agende consultas, banho e tosa, vacinação e mais em Jaraguá do Sul/SC." />
+  <title>Contato – Patinha Feliz</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
-  <!-- Skip link para acessibilidade -->
   <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
 
-  <!-- HEADER -->
   <header class="header" role="banner">
     <nav class="nav container" aria-label="Navegação principal">
-      <a class="nav__logo" href="index.html" aria-label="Patinha Feliz – Página inicial">
-         Patinha <span>Feliz</span>
+      <a class="nav__logo" href="index.html" aria-label="Patinha Feliz – Página inicial">🐾 Patinha <span>Feliz</span>
       </a>
       <ul class="nav__links" role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="servicos.html">Serviços</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="sobre.html"> Sobre</a></li>
+        <li><a href="servicos.html"> Serviços</a></li>
+        <li><a href="contato.html"> Contato</a></li>
       </ul>
       <a class="btn btn--primary nav__cta" href="contato.html">Agendar consulta</a>
       <button class="nav__hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
@@ -34,183 +30,232 @@
     </nav>
   </header>
 
-  <!-- MAIN -->
   <main id="main">
 
     <!-- HERO -->
-    <section class="hero" aria-labelledby="hero-title">
-      <div class="hero__inner container">
-        <div class="hero__content">
-          <span class="badge">Clínica Veterinária & Petshop</span>
-          <h1 id="hero-title">Seu pet merece o melhor cuidado</h1>
-          <p>Consultas veterinárias, banho e tosa, vacinação e muito mais. Com carinho, profissionalismo e a atenção que seu animal merece.</p>
-          <div class="hero__actions">
-            <a class="btn btn--accent" href="contato.html">Agendar agora</a>
-            <a class="btn btn--secondary" href="servicos.html">Ver serviços</a>
-          </div>
-          <div class="hero__stats" aria-label="Números da clínica">
-            <div class="hero__stat">
-              <strong>+2.000</strong>
-              <span>Pets atendidos</span>
-            </div>
-            <div class="hero__stat">
-              <strong>8 anos</strong>
-              <span>De experiência</span>
-            </div>
-            <div class="hero__stat">
-              <strong>5 vets</strong>
-              <span>Especializados</span>
-            </div>
-          </div>
-        </div>
-        <div class="hero__visual" aria-hidden="true">
-          <div class="hero__illustration"></div>
-        </div>
+    <section class="contact-hero" aria-labelledby="contato-title">
+      <div class="container">
+        <span class="badge badge--on-dark">Fale conosco</span>
+        <h1 id="contato-title">Entre em contato</h1>
+        <p>Agende uma consulta, tire dúvidas ou venha nos visitar. Estamos prontos para cuidar do seu pet!</p>
       </div>
     </section>
 
-    <!-- SERVIÇOS PREVIEW -->
-    <section class="section" aria-labelledby="servicos-title">
+    <!-- CONTATO PRINCIPAL -->
+    <section class="section" aria-labelledby="form-section-title">
       <div class="container">
-        <div class="text-center">
-          <span class="badge">O que oferecemos</span>
-          <h2 class="section-title" id="servicos-title">Serviços para seu pet</h2>
-          <p class="section-subtitle">Tudo que seu animal precisa, em um só lugar.</p>
-        </div>
-        <div class="services-grid">
-          <article class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Consulta Veterinária</h3>
-            <p>Atendimento clínico geral com médicos veterinários especializados para cães, gatos e pequenos animais.</p>
-          </article>
-          <article class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Banho & Tosa</h3>
-            <p>Higienização completa com produtos hipoalergênicos, corte de unhas e secagem profissional.</p>
-          </article>
-          <article class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Vacinação</h3>
-            <p>Carteirinha de vacinação em dia com todos os imunizantes necessários para a saúde do seu pet.</p>
-          </article>
-          <article class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Internação</h3>
-            <p>Estrutura completa de internação com monitoramento 24h e equipe dedicada ao bem-estar do animal.</p>
-          </article>
-        </div>
-        <div class="text-center" style="margin-top:2rem">
-          <a class="btn btn--secondary" href="servicos.html">Ver todos os serviços</a>
-        </div>
-      </div>
-    </section>
+        <div class="contact-layout">
 
-    <!-- POR QUE NÓS -->
-    <section class="section section--alt" aria-labelledby="why-title">
-      <div class="container">
-        <div class="text-center">
-          <span class="badge">Por que escolher a Patinha Feliz</span>
-          <h2 class="section-title" id="why-title">Cuidado de verdade faz diferença</h2>
-        </div>
-        <div class="services-grid" style="margin-top:2.5rem">
-          <div class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Equipe especializada</h3>
-            <p>Veterinários com pós-graduação e atualização constante nas melhores práticas do mercado.</p>
-          </div>
-          <div class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Horários flexíveis</h3>
-            <p>Atendimento de segunda a sábado, com opção de agendamento online em qualquer horário.</p>
-          </div>
-          <div class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Amor pelos animais</h3>
-            <p>Nossa equipe é apaixonada pelo que faz. Cada pet é tratado como se fosse da família.</p>
-          </div>
-          <div class="card">
-            <span class="card__icon" aria-hidden="true"></span>
-            <h3>Prontuário digital</h3>
-            <p>Histórico completo do seu pet sempre disponível, garantindo continuidade no tratamento.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+          <!-- Informações -->
+          <aside aria-label="Informações de contato">
+            <h2 id="form-section-title">Informações</h2>
+            <p>Escolha a forma de contato que for mais conveniente para você.</p>
 
-    <!-- DEPOIMENTOS -->
-    <section class="section" aria-labelledby="depoimentos-title">
-      <div class="container">
-        <div class="text-center">
-          <span class="badge">O que dizem nossos clientes</span>
-          <h2 class="section-title" id="depoimentos-title">Quem confia na Patinha Feliz</h2>
-        </div>
-        <div class="testimonials-grid">
-          <blockquote class="testimonial">
-            <p class="testimonial__text">"Melhor clínica da cidade! O Bidu sempre sai contente de lá. Os veterinários são muito atenciosos e a estrutura é impecável."</p>
-            <footer class="testimonial__author">
-              <div class="testimonial__avatar" aria-hidden="true"></div>
-              <div>
-                <p class="testimonial__name">Ana Paula Rech</p>
-                <p class="testimonial__pet">Tutora do Bidu </p>
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">📞</div>
+              <div class="info-item__text">
+                <strong>Telefone / WhatsApp</strong>
+                <span><a href="tel:+554733331234">(47) 3333-1234</a></span>
               </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial">
-            <p class="testimonial__text">"Levei minha gata para a primeira consulta aqui e nunca mais precisei ir a outro lugar. Atendimento humano, cuidadoso e transparente."</p>
-            <footer class="testimonial__author">
-              <div class="testimonial__avatar" aria-hidden="true"></div>
-              <div>
-                <p class="testimonial__name">Carlos Eduardo</p>
-                <p class="testimonial__pet">Tutor da Mel </p>
+            </div>
+
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">✉️</div>
+              <div class="info-item__text">
+                <strong>E-mail</strong>
+                <span><a href="mailto:contato@patinhafeliz.com.br">contato@patinhafeliz.com.br</a></span>
               </div>
-            </footer>
-          </blockquote>
-          <blockquote class="testimonial">
-            <p class="testimonial__text">"O serviço de banho e tosa é incrível! Minha Lola volta sempre cheirosa e bem cuidada. Recomendo de olhos fechados."</p>
-            <footer class="testimonial__author">
-              <div class="testimonial__avatar" aria-hidden="true"></div>
-              <div>
-                <p class="testimonial__name">Fernanda Lima</p>
-                <p class="testimonial__pet">Tutora da Lola</p>
+            </div>
+
+            <div class="info-item">
+              <div class="info-item__icon" aria-hidden="true">📍</div>
+              <div class="info-item__text">
+                <strong>Endereço</strong>
+                <span>Rua das Flores, 150<br>Jaraguá Esquerdo<br>Jaraguá do Sul – SC, 89255-000</span>
               </div>
-            </footer>
-          </blockquote>
+            </div>
+
+            <h3 style="font-size:1.1rem;margin-top:2rem;margin-bottom:0.5rem">Horário de Atendimento</h3>
+            <table class="hours-table" aria-label="Horários de funcionamento">
+              <tbody>
+                <tr><td>Segunda – Sexta</td><td>08h – 18h</td></tr>
+                <tr><td>Sábado</td><td>08h – 13h</td></tr>
+                <tr><td>Domingo</td><td>Fechado</td></tr>
+                <tr><td>Feriados</td><td>Consultar</td></tr>
+              </tbody>
+            </table>
+
+            <!-- Mapa placeholder -->
+            <div class="map-placeholder" role="img" aria-label="Mapa ilustrativo – Rua das Flores, 150, Jaraguá do Sul">
+              <span aria-hidden="true">📍</span>
+              <p>Rua das Flores, 150<br>Jaraguá do Sul – SC</p>
+            </div>
+          </aside>
+
+          <!-- Formulário -->
+          <div>
+            <div class="form-card">
+              <h2>Agendar ou enviar mensagem</h2>
+              <p>Preencha os campos abaixo e entraremos em contato em até 24 horas úteis.</p>
+
+              <form id="contactForm" novalidate aria-label="Formulário de agendamento">
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="nome">Nome completo <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="text"
+                      id="nome"
+                      name="nome"
+                      autocomplete="name"
+                      placeholder="Ex: Maria Silva"
+                      aria-required="true"
+                      aria-describedby="nomeError nomeSuccess"
+                    />
+                    <span class="field-error" id="nomeError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="nomeSuccess"> Nome válido</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-mail <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      autocomplete="email"
+                      placeholder="Ex: maria@email.com"
+                      aria-required="true"
+                      aria-describedby="emailError emailSuccess"
+                    />
+                    <span class="field-error" id="emailError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="emailSuccess"> E-mail válido</span>
+                  </div>
+                </div>
+
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="telefone">Telefone / WhatsApp <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="tel"
+                      id="telefone"
+                      name="telefone"
+                      autocomplete="tel"
+                      placeholder="(47) 99999-9999"
+                      aria-required="true"
+                      aria-describedby="telefoneError telefoneSuccess"
+                      maxlength="15"
+                    />
+                    <span class="field-error" id="telefoneError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="telefoneSuccess"> Telefone válido</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="pet">Nome do pet <span class="required" aria-hidden="true">*</span></label>
+                    <input
+                      type="text"
+                      id="pet"
+                      name="pet"
+                      placeholder="Ex: Rex"
+                      aria-required="true"
+                      aria-describedby="petError petSuccess"
+                    />
+                    <span class="field-error" id="petError" role="alert" aria-live="polite"></span>
+                    <span class="field-success" id="petSuccess"> Nome do pet preenchido</span>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="servico">Serviço desejado <span class="required" aria-hidden="true">*</span></label>
+                  <select
+                    id="servico"
+                    name="servico"
+                    aria-required="true"
+                    aria-describedby="servicoError servicoSuccess"
+                  >
+                    <option value="">Selecione um serviço...</option>
+                    <option value="consulta">Consulta veterinária</option>
+                    <option value="banho-tosa">Banho e tosa</option>
+                    <option value="vacinacao">Vacinação</option>
+                    <option value="cirurgia">Cirurgia</option>
+                    <option value="exames">Exames laboratoriais</option>
+                    <option value="internacao">Internação</option>
+                    <option value="spa">Spa Pet Premium</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                  <span class="field-error" id="servicoError" role="alert" aria-live="polite"></span>
+                  <span class="field-success" id="servicoSuccess"> Serviço selecionado</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="mensagem">Mensagem <span class="required" aria-hidden="true">*</span></label>
+                  <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    placeholder="Descreva brevemente o motivo do contato, a espécie e a raça do seu pet..."
+                    aria-required="true"
+                    aria-describedby="mensagemError mensagemSuccess"
+                  ></textarea>
+                  <span class="field-error" id="mensagemError" role="alert" aria-live="polite"></span>
+                  <span class="field-success" id="mensagemSuccess"> Mensagem preenchida</span>
+                </div>
+
+                <p style="font-size:0.8rem;color:#888;margin-bottom:1.25rem">
+                  <span aria-hidden="true">*</span> Campos obrigatórios. Seus dados são usados apenas para retorno de contato.
+                </p>
+
+                <button type="submit" class="btn btn--primary" style="width:100%;justify-content:center;padding:0.9rem">
+                  Enviar mensagem 
+                </button>
+              </form>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
 
-    <!-- CTA FINAL -->
-    <section class="cta-section" aria-labelledby="cta-title">
-      <div class="container">
-        <h2 id="cta-title">Pronto para cuidar do seu pet?</h2>
-        <p>Agende uma consulta agora mesmo. É rápido, fácil e o seu animal vai adorar!</p>
-        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap">
-          <a class="btn btn--primary" href="contato.html">Agendar consulta</a>
-          <a class="btn btn--secondary" href="servicos.html">Conhecer serviços</a>
+    <!-- COMO CHEGAR -->
+    <section class="section section--alt" aria-labelledby="como-chegar-title">
+      <div class="container text-center">
+        <span class="badge">Localização</span>
+        <h2 class="section-title" id="como-chegar-title">Como nos encontrar</h2>
+        <p class="section-subtitle">Estamos no coração de Jaraguá do Sul, com fácil acesso e estacionamento.</p>
+        <div class="services-grid" style="margin-top:2rem">
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚗</span>
+            <h3>De carro</h3>
+            <p>Saindo do centro, pegue a Av. Rui Barbosa e vire à esquerda na Rua das Flores. Estacionamento gratuito na porta.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚌</span>
+            <h3>De ônibus</h3>
+            <p>Linhas 03, 07 e 12 param a 200m da clínica. Desça no ponto "Jardim Flores" e caminhe pela Rua das Flores.</p>
+          </div>
+          <div class="card">
+            <span class="card__icon" aria-hidden="true">🚶</span>
+            <h3>A pé</h3>
+            <p>A 10 minutos do centro da cidade, numa rua tranquila e arborizada. Perfeito para passeios com seu pet!</p>
+          </div>
         </div>
       </div>
     </section>
 
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-           <a class="nav__logo" href="index.html" aria-label="Patinha Feliz"> Informações do Trabalho</a>
-              <p>Alunos: Rafael Rodrigues Antonio, Lorenzo Makdesi Pereira Ribeiro e Arthur Andrade</p>
-              <p>Ferramentas Web e UX - Engenharia de Software</p>
-              <p>Católica SC - Jaraguá do Sul</p>
-
+          <a class="nav__logo" href="index.html" aria-label="Patinha Feliz"> Informações do Trabalho</a>
+            <p>Alunos: Rafael Rodrigues Antonio, Lorenzo Makdesi Pereira Ribeiro e Arthur Andrade</p>
+            <p>Ferramentas Web e UX - Engenharia de Software</p>
+            <p>Católica SC - Jaraguá do Sul</p>
         </div>
         <nav class="footer__col" aria-label="Links do site">
           <h4>Páginas</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">🏠 Home</a></li>
             <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="servicos.html">🩺 Serviços</a></li>
+            <li><a href="contato.html">✉️ Contato</a></li>
           </ul>
         </nav>
         <div class="footer__col">
