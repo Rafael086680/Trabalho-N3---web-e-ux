@@ -7,23 +7,21 @@
   <title>Serviços – Patinha Feliz</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
   <a class="skip-link" href="#main">Pular para o conteúdo principal</a>
 
   <header class="header" role="banner">
     <nav class="nav container" aria-label="Navegação principal">
-      <a class="nav__logo" href="index.html" aria-label="Patinha Feliz – Página inicial">
-        Patinha <span>Feliz</span>
+      <a class="nav__logo" href="index.html" aria-label="Patinha Feliz – Página inicial">🐾 Patinha <span>Feliz</span>
       </a>
       <ul class="nav__links" role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="servicos.html">Serviços</a></li>
-        <li><a href="contato.html">Contato</a></li>
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="sobre.html"> Sobre</a></li>
+        <li><a href="servicos.html"> Serviços</a></li>
+        <li><a href="contato.html"> Contato</a></li>
       </ul>
       <a class="btn btn--primary nav__cta" href="contato.html">Agendar consulta</a>
       <button class="nav__hamburger" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu">
@@ -37,7 +35,7 @@
     <!-- HERO -->
     <section class="services-hero" aria-labelledby="servicos-title">
       <div class="container">
-        <span class="badge" style="background:rgba(168,213,181,0.3);color:#A8D5B5">Catálogo completo</span>
+        <span class="badge badge--on-dark">Catálogo completo</span>
         <h1 id="servicos-title">Nossos serviços</h1>
         <p>Do banho à cirurgia, temos tudo que seu pet precisa com profissionalismo e carinho.</p>
       </div>
@@ -61,7 +59,7 @@
         <div class="services-full-grid">
 
           <article class="service-card" data-category="clinica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Clínica</span>🩺</div>
             <div class="service-card__body">
               <h3>Consulta Clínica Geral</h3>
               <p>Avaliação completa da saúde do seu pet com anamnese detalhada, exame físico e orientação terapêutica.</p>
@@ -77,7 +75,7 @@
           </article>
 
           <article class="service-card" data-category="estetica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Estética</span>🛁</div>
             <div class="service-card__body">
               <h3>Banho & Tosa</h3>
               <p>Higienização profissional com produtos hipoalergênicos e cuidado individualizado para cada raça.</p>
@@ -93,7 +91,7 @@
           </article>
 
           <article class="service-card" data-category="preventivo">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Preventivo</span>💉</div>
             <div class="service-card__body">
               <h3>Vacinação</h3>
               <p>Protocolo vacinal completo e atualizado, com carteirinha digital para acompanhamento fácil.</p>
@@ -109,7 +107,7 @@
           </article>
 
           <article class="service-card" data-category="cirurgia">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Cirurgia</span>🔪</div>
             <div class="service-card__body">
               <h3>Cirurgia</h3>
               <p>Centro cirúrgico equipado com monitorização anestésica completa e equipe especializada.</p>
@@ -125,7 +123,7 @@
           </article>
 
           <article class="service-card" data-category="clinica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Clínica</span>🧪</div>
             <div class="service-card__body">
               <h3>Exames Laboratoriais</h3>
               <p>Laboratório in-house com hemograma, bioquímica, urinálise e muito mais com resultados em horas.</p>
@@ -141,7 +139,7 @@
           </article>
 
           <article class="service-card" data-category="preventivo">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Preventivo</span>🐛</div>
             <div class="service-card__body">
               <h3>Controle de Parasitas</h3>
               <p>Vermifugação, antipulgas e carrapaticidas adequados para cada fase da vida e porte do animal.</p>
@@ -157,7 +155,7 @@
           </article>
 
           <article class="service-card" data-category="clinica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Clínica</span>🩻</div>
             <div class="service-card__body">
               <h3>Radiologia & Ultrassom</h3>
               <p>Diagnóstico por imagem com equipamentos digitais modernos para avaliação precisa.</p>
@@ -173,7 +171,7 @@
           </article>
 
           <article class="service-card" data-category="estetica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Estética</span>✨</div>
             <div class="service-card__body">
               <h3>Spa Pet Premium</h3>
               <p>Experiência de bem-estar completa com hidratação profunda, aromaterapia e massagem relaxante.</p>
@@ -189,7 +187,7 @@
           </article>
 
           <article class="service-card" data-category="clinica">
-            <div class="service-card__header" aria-hidden="true"></div>
+            <div class="service-card__header"><span class="service-card__tag">Clínica</span>🏥</div>
             <div class="service-card__body">
               <h3>Internação & UTI</h3>
               <p>Monitoramento 24 horas com equipe técnica de plantão e estrutura completa de suporte de vida.</p>
@@ -220,7 +218,7 @@
           <details class="faq-item">
             <summary>Como faço para agendar uma consulta?</summary>
             <div class="faq-item__body">
-              Você pode agendar pelo nosso formulário de contato na página <a href="contato.html" style="color:var(--verde-medio)">Contato</a>, pelo telefone (47) 3333-1234 ou pelo WhatsApp. Atendemos de segunda a sexta das 8h às 18h e aos sábados das 8h às 13h.
+              Você pode agendar pelo nosso formulário de contato na página <a href="contato.html" style="color:var(--twilight-2);font-weight:600">Contato</a>, pelo telefone (47) 3333-1234 ou pelo WhatsApp. Atendemos de segunda a sexta das 8h às 18h e aos sábados das 8h às 13h.
             </div>
           </details>
 
@@ -286,10 +284,10 @@
         <nav class="footer__col" aria-label="Links do site">
           <h4>Páginas</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">🏠 Home</a></li>
             <li><a href="sobre.html">Sobre nós</a></li>
-            <li><a href="servicos.html">Serviços</a></li>
-            <li><a href="contato.html">Contato</a></li>
+            <li><a href="servicos.html">🩺 Serviços</a></li>
+            <li><a href="contato.html">✉️ Contato</a></li>
           </ul>
         </nav>
         <div class="footer__col">
