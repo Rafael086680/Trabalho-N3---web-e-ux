@@ -372,20 +372,6 @@ p  { max-width: 65ch; }
 }
 .card:hover { transform: translateY(-6px); box-shadow: var(--shadow); border-color: transparent; }
 
-.card__icon {
-  width: 54px; height: 54px;
-  border-radius: 16px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1.1rem;
-  background: var(--twilight-soft);
-  color: var(--twilight-2);
-}
-.card__icon { font-size: 1.6rem; }
-.card__icon--honey { background: var(--honey-soft); color: var(--honey-deep); }
-.card__icon--coral { background: var(--coral-soft); color: var(--coral); }
-
 .card h3 { margin-bottom: 0.5rem; }
 .card p  { font-size: 0.92rem; color: var(--muted); max-width: none; }
 
@@ -480,24 +466,6 @@ p  { max-width: 65ch; }
   align-items: center;
   margin-top: 2rem;
 }
-.about-visual {
-  background: linear-gradient(160deg, var(--twilight-soft), var(--paper));
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  height: 380px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
-.about-visual { font-size: 5rem; }
-.about-visual::before {
-  content: '';
-  position: absolute;
-  width: 220px; height: 220px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(231,162,58,0.18), transparent 70%);
-}
 
 .values-grid {
   display: grid;
@@ -516,19 +484,6 @@ p  { max-width: 65ch; }
   transition: box-shadow var(--transition), transform var(--transition);
 }
 .value-card:hover { box-shadow: var(--shadow); transform: translateY(-3px); }
-.value-card__icon {
-  width: 46px; height: 46px;
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  background: var(--twilight-soft);
-  color: var(--twilight-2);
-}
-.value-card__icon { font-size: 1.4rem; }
-.value-card__icon--honey { background: var(--honey-soft); color: var(--honey-deep); }
-.value-card__icon--coral { background: var(--coral-soft); color: var(--coral); }
 .value-card h3 { font-size: 1rem; margin-bottom: 0.25rem; }
 .value-card p  { font-size: 0.86rem; color: var(--muted); max-width: none; }
 
@@ -585,33 +540,12 @@ p  { max-width: 65ch; }
 }
 .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow); }
 
-.service-card__header {
-  position: relative;
-  height: 132px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--twilight), var(--twilight-2));
-}
-.service-card__header { font-size: 2.6rem; }
-.service-card__tag {
-  position: absolute;
-  top: 0.85rem; left: 0.85rem;
-  background: rgba(255,255,255,0.92);
-  color: var(--twilight);
-  font-size: 0.68rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  padding: 0.3rem 0.7rem;
-  border-radius: var(--radius-pill);
-}
-.service-card[data-category="estetica"]   .service-card__header { background: linear-gradient(135deg, var(--coral), var(--coral-deep)); }
-.service-card[data-category="estetica"]   .service-card__tag    { color: var(--coral-deep); }
-.service-card[data-category="preventivo"] .service-card__header { background: linear-gradient(135deg, var(--honey), var(--honey-deep)); }
-.service-card[data-category="preventivo"] .service-card__tag    { color: var(--honey-deep); }
-.service-card[data-category="cirurgia"]   .service-card__header { background: linear-gradient(135deg, var(--ink), var(--twilight)); }
-.service-card[data-category="cirurgia"]   .service-card__tag    { color: var(--ink); }
+.service-card[data-category="estetica"] { background: linear-gradient(135deg, var(--coral), var(--coral-deep)); }
+.service-card[data-category="estetica"] { color: var(--coral-deep); }
+.service-card[data-category="preventivo"] { background: linear-gradient(135deg, var(--honey), var(--honey-deep)); }
+.service-card[data-category="preventivo"] { color: var(--honey-deep); }
+.service-card[data-category="cirurgia"] { background: linear-gradient(135deg, var(--ink), var(--twilight)); }
+.service-card[data-category="cirurgia"] { color: var(--ink); }
 
 .service-card__body { padding: 1.5rem; }
 .service-card__body h3 { margin-bottom: 0.5rem; }
@@ -708,17 +642,7 @@ p  { max-width: 65ch; }
   margin-bottom: 1.25rem;
   align-items: flex-start;
 }
-.info-item__icon {
-  width: 44px; height: 44px;
-  background: var(--twilight-soft);
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  color: var(--twilight-2);
-}
-.info-item__icon { font-size: 1.2rem; }
+
 .info-item__text strong { display: block; font-size: 0.82rem; color: var(--twilight); text-transform: uppercase; letter-spacing: 0.06em; }
 .info-item__text span   { font-size: 0.95rem; color: var(--ink-soft); }
 
@@ -918,7 +842,6 @@ textarea { resize: vertical; min-height: 130px; }
   .hero__visual    { display: none; }
 
   .about-grid      { grid-template-columns: 1fr; }
-  .about-visual    { height: 240px; }
   .values-grid     { grid-template-columns: 1fr; }
 
   .contact-layout  { grid-template-columns: 1fr; }
