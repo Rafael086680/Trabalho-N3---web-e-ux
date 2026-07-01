@@ -23,7 +23,7 @@ patinha-feliz/
 ├── main.js           # Interações: menu, tabs, validação de formulário, etc.
 └── README.md
 ```
-
+ 
 ## Páginas
 
 | Página | Descrição |
