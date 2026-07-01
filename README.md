@@ -12,7 +12,7 @@ O site apresenta a clínica, seus serviços e equipe, além de um formulário de
 - Identidade visual consistente entre as páginas  
  
 ## Estrutura de arquivos 
-
+ 
 ```
 patinha-feliz/
 ├── index.html        # Página inicial (Home)
