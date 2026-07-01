@@ -11,7 +11,7 @@ O site apresenta a clínica, seus serviços e equipe, além de um formulário de
 - Boas práticas de UX (feedback visual, validação em tempo real, máscara de telefone)
 - Identidade visual consistente entre as páginas  
  
-## Estrutura de arquivos
+## Estrutura de arquivos 
 
 ```
 patinha-feliz/
