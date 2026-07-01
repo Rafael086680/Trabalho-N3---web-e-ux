@@ -9,7 +9,7 @@ O site apresenta a clínica, seus serviços e equipe, além de um formulário de
 - Design responsivo (mobile-first)
 - Acessibilidade (uso de `aria-*`, `role`, skip link, foco visível)
 - Boas práticas de UX (feedback visual, validação em tempo real, máscara de telefone)
-- Identidade visual consistente entre as páginas
+- Identidade visual consistente entre as páginas 
  
 ## Estrutura de arquivos
 
